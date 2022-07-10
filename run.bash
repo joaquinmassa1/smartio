@@ -1,0 +1,1 @@
+go build ./app/backend/main.go
