@@ -2,6 +2,6 @@ package routes
 
 import "net/http"
 
-func home(w http.ResponseWriter, r *http.Request) {
+func Home(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("hello world"))
 }
